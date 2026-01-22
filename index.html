@@ -1,1 +1,16 @@
-created a html file
+
+<h1 id="one">Hello World</h1>
+<button onclick="js()">Click Me</button>
+
+<script>
+    //Select the h1 element and change its text content
+    var para = document.getElementById("one")
+    console.log(para.textContent)
+    para.textContent = "Hello JavaScript"
+    
+    function js(){
+        para.textContent = "Bye World"
+    }
+
+    
+</script>
