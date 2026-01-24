@@ -1,7 +1,5 @@
-<label for="num1">Number 1:</label>
-<input id="num1" title="Enter first number" placeholder="First number">
 
-<label for="num2">Number 2:</label>
+<input id="num1" title="Enter first number" placeholder="First number">
 <input id="num2" title="Enter second number" placeholder="Second number">
 
 <button onclick="add()">Add</button>
@@ -10,7 +8,7 @@
 
 
 <script>
-
+//Select the input box1, box2 and result paragraph
   var box1= document.getElementById("num1")
   var box2= document.getElementById("num2")
   var result= document.getElementById("rlt")
@@ -19,6 +17,7 @@
     var box1Value=Number(box1.value)
     var box2Value=Number(box2.value)
     var total =box1Value + box2Value
+   
     result.textContent= total
   }
 
