@@ -1,0 +1,12 @@
+<input id="inputBox" placeholder="result wil be displayed" onkeydown="update()">
+<h1 id="simply"></h1>
+<button onclick="update()">Button</button>
+
+<script>
+    var Box = document.getElementById("inputBox")
+    var Box1 = document.getElementById("simply")
+
+    function update(){
+     Box1.textContent = Box.value
+    }
+</script>
